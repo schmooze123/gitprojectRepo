@@ -3,7 +3,6 @@ version: 0.2
 phases:
   install:
     commands:
-      # Install dependencies needed for running tests
       - pip install -r requirements/common.txt
 
   pre_build:
